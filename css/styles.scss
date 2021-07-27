@@ -1,0 +1,51 @@
+---
+---
+
+@font-face {
+  font-family: "SangBleuEmpire-Medium";
+  src: url("/fonts/SangBleuEmpire-Medium-WebS.woff2") format("woff2"),
+       url("/fonts/SangBleuEmpire-Medium-WebS.woff") format("woff");
+}
+
+/* richiesto da scrollmagic */
+  html,
+  body {
+    height: 100%;
+  }
+
+/* general layout styles */
+  body {
+    overflow-x: hidden;
+  }
+
+
+
+/* background colors */
+body {
+  transition: background-color 1s;
+}
+
+.black {
+  background: black;
+}
+
+.white {
+  background: white;
+}
+
+
+/* text color */
+body {
+  color: white;
+}
+
+
+
+
+.logo-container.closed p {
+  opacity: 0.3;
+}
+
+.logo-container.closed .last {
+  opacity: 0.99;
+}

@@ -1,0 +1,13 @@
+# va in html title
+title: VUOTO
+# va in html meta description
+description: Spazio pubblico transmediale
+# va nella navigazione
+keywords: vuoto, orizzontale, atto, spazio pubblico, città, architettura, architecture, urbanistica, urbanism, urban design, grafica, graphic design, covid19, urbanistica tattica, tactical urbanism, festa
+# va nella navigazione
+sitename: VUOTO
+# accessibile con site.url
+url: https://vuoto.xyz
+
+kramdown:
+  hard_wrap: true

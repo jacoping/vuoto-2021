@@ -1,0 +1,65 @@
+  - luogo: BOLOGNA
+    librerie:
+      - nome: corraini mambo
+        indirizzo: Via Don Minzoni 14
+        web: 'https://www.corraini.com/it/librerie/corraini-mambo-artbookshop.html'
+  - luogo: CATANIA
+    librerie:
+      - nome: vicolo stretto
+        indirizzo: Via Santa Filomena 38
+        web: 'https://www.libreriavicolostretto.it/'
+      - nome: legatoria prampolini
+        indirizzo: Via Vittorio Emanuele II 333
+        web: 'https://www.libreriavicolostretto.it/'
+  - luogo: FIRENZE
+    librerie:
+      - nome: todo modo
+        indirizzo: Via dei Fossi 15 rosso
+        web: 'https://todomodo.org/'
+  - luogo: MANTOVA
+    librerie:
+      - nome: galleria corraini
+        indirizzo: Via Ippolito Nievo 7a
+        web: 'https://corraini.com/it/librerie/galleria-corraini.html'
+  - luogo: Milano
+    librerie:
+      - nome: spazio b**k
+        indirizzo: Via Porro Lambertenghi 20
+        web: 'https://www.spaziobk.com/'
+      - nome: noi libreria
+        indirizzo: Via delle Leghe 18
+        web: 'https://www.noilibreria.it/'
+      - nome: corraini 121+
+        indirizzo: Via Savona 17/5
+        web: 'https://corraini.com/it/librerie/121.html'
+      - nome: verso
+        indirizzo: Corso di Porta Ticinese 40
+        web: 'https://www.libreriaverso.com/'
+  - luogo: NAPOLI
+    librerie:
+      - nome: perditempo
+        indirizzo: Via S. Pietro a Maiella 8
+        web: 'https://www.facebook.com/PerdiTempobarNapoli/'
+  - luogo: PERUGIA
+    librerie:
+      - nome: edicola 518
+        indirizzo: Via Sant'Ercolano 42
+        web: 'https://www.emergenzeweb.it/edicola-518/'
+  - luogo: ROMA
+    librerie:
+      - nome: leporello
+        indirizzo: Via del Pigneto 162/e
+        web: 'https://leporello-books.com/'
+      - nome: casa dell’architettura
+        indirizzo: 'Piazza Manfredo Fanti, 47'
+        web: 'https://www.casadellarchitettura.it/'
+  - luogo: TORINO
+    librerie:
+      - nome: libreria bodoni
+        indirizzo: Via Carlo Alberto 41
+        web: 'https://www.libreriabodoni.it/'
+  - luogo: VENEZIA
+    librerie:
+      - nome: b-r-u-n-o
+        indirizzo: 'C. Lunga S. Barnaba, 2729'
+        web: 'https://www.b-r-u-n-o.it/'
