@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="it" dir="ltr" class="blue">
 
+<head>
+  {% include meta-and-title.html %}
+
+  <!-- this is necessary for random colors script -->
+  <style media="screen">
+  </style>
+
+  <link rel="stylesheet" href="https://use.typekit.net/skj1zoz.css">
+  <link rel="stylesheet" href="/css/styles-home.css">
+
+  <script src="/res/js/gsap.min.js"></script>
+  <script src="/res/js/ScrollMagic.js"></script>
+  <script src="/res/js/animation.gsap.js"></script>
+  {% include ga.html %}
+
+</head>
 
 <body>
 
-  {% include head-home.html %}
 
   {{ content }}
+
+  {% include menu.html %}
 
 </body>
 

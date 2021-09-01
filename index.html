@@ -4,7 +4,7 @@ title: Home
 ---
 
 
-  <div class="header">
+  <div id="begin" class="header">
     <div class="logo-container">
       <p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p>
       <h1 class="last">VUOTO</h1>
@@ -83,6 +83,27 @@ title: Home
       <div class="pics_container pics_container_issue2"></div>
       <div class="spacer100"></div>
       <div class="spacer100"></div>
+    </div>
+
+    <div class="spacer100"></div>
+    <div id="festa" class="issue-container">
+
+    <div class="description">
+      <h2>
+        <span class="issue-number">
+          VUOTO 3 /
+        </span>
+        <span class="issue-title">
+          FESTA
+        </span>
+      </h2>
+
+      VUOTO 3 È FUORI!
+      <div class="">
+        <a href="/#getyourcopy">COMPRALO!</a>
+      </div>
+      OPPURE <a href="/festa">SFOGLIALO ONLINE E GUARDA LA SEZIONE TRANSMEDIALE</a>
+
     </div>
 
     <div class="spacer100"></div>
@@ -176,7 +197,7 @@ title: Home
 
 
 
-        <div id="app">
+        <div content="distribution network">
           <h2 class="sections">ONLINE</h2>
 
           <h3 class="online">leporello</h3>
@@ -192,26 +213,17 @@ title: Home
           <p class="links soldout"> <a target="_blank" href="https://www.emergenzeweb.it/">VUOTO 1 / VERTIGO</a></p>
           <p class="links soldout"> <a target="_blank" href="https://www.emergenzeweb.it/prodotto/vuoto-%E2%84%96-2/"> VUOTO 2 / CONTROVERSO </a></p>
 
-
           <h2 class="sections">LIBRERIE</h2>
-
-          <div v-for="city in cities">
-            <h2 class=cities>{{city.luogo}}</h2>
-            <div v-for="libreria in city.librerie">
-              <h3><a :href="libreria.web">{{libreria.nome}}</a></h3>
-              <p>{{libreria.indirizzo}}</p>
-            </div>
-          </div>
 
           {% for city in site.data.librerie %}
             <div class="">
               <h2 class=cities>{{city.luogo}}</h2>
                 {% for libreria in city.librerie %}
-                  <div class="">
+                <div class="">
                   <h3><a href="{{ libreria.web }}">{{libreria.nome}}</a></h3>
                   <p>{{libreria.indirizzo}}</p>
-                {% endfor %}
               </div>
+              {% endfor %}
             </div>
           {% endfor %}
 

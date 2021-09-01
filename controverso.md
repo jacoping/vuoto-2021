@@ -1,7 +1,4 @@
 ---
-layout: base
+layout: issues
 title: Controverso
-permalink: /controverso
 ---
-
-# {{ page.title }}

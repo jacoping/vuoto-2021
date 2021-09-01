@@ -1,51 +1,159 @@
 ---
 ---
 
-@font-face {
-  font-family: "SangBleuEmpire-Medium";
-  src: url("/fonts/SangBleuEmpire-Medium-WebS.woff2") format("woff2"),
-       url("/fonts/SangBleuEmpire-Medium-WebS.woff") format("woff");
-}
-
-/* richiesto da scrollmagic */
-  html,
-  body {
-    height: 100%;
-  }
-
-/* general layout styles */
-  body {
-    overflow-x: hidden;
-  }
-
-
-
-/* background colors */
 body {
-  transition: background-color 1s;
+  font-family: neue-haas-grotesk-display, Helvetica, sans-serif;
 }
 
-.black {
-  background: black;
+/* FONTS */
+
+.j-fw-100 {
+  font-weight: 100;
 }
 
-.white {
-  background: white;
+.j-fw-300 {
+  font-weight: 300;
+}
+
+.j-fw-400 {
+  font-weight: 400;
+}
+
+.j-fw-500 {
+  font-weight: 500;
+}
+
+.j-fw-600 {
+  font-weight: 600;
+}
+
+.j-fw-700 {
+  font-weight: 700;
+}
+
+.j-fw-900 {
+  font-weight: 900;
 }
 
 
-/* text color */
-body {
-  color: white;
+.j-lh-05 {
+  line-height: 0.5;
+}
+
+.j-lh-08 {
+  line-height: 0.8;
+}
+
+.j-lh-085 {
+  line-height: 0.85;
+}
+
+.j-lh-09 {
+  line-height: 0.9;
+}
+
+.j-lh-095 {
+  line-height: 0.95;
+}
+
+
+.j-fs-070em {
+  font-size: 0.70em;
+}
+
+.j-fs-085em {
+  font-size: 0.85em;
+}
+
+.j-fs-120em {
+  font-size: 1.20em;
+}
+
+.j-fs-130em {
+  font-size: 1.30em;
+}
+
+.j-fs-180em {
+  font-size: 1.80em;
+}
+
+.j-fs-200em {
+  font-size: 2.00em;
+}
+
+.j-fs-230em {
+  font-size: 2.30em;
+}
+
+.j-fs-275em {
+  font-size: 2.75em;
+}
+
+.j-fs-300em {
+  font-size: 3.00em;
+}
+
+.j-fs-350em {
+  font-size: 3.50em;
+}
+
+.j-fs-400em {
+  font-size: 4.00em;
 }
 
 
 
 
-.logo-container.closed p {
-  opacity: 0.3;
+
+
+.j-fs-02vw {
+  font-size: 2vw;
 }
 
-.logo-container.closed .last {
-  opacity: 0.99;
+.j-fs-03vw {
+  font-size: 3vw;
+}
+
+.j-fs-035vw {
+  font-size: 3.5vw;
+}
+
+.j-fs-04vw {
+  font-size: 4vw;
+}
+
+.j-fs-0425vw {
+  font-size: 4.25vw;
+}
+
+.j-fs-05vw {
+  font-size: 5vw;
+}
+
+.j-fs-06vw {
+  font-size: 6vw;
+}
+
+.j-fs-07vw {
+  font-size: 7vw;
+}
+
+.j-fs-08vw {
+  font-size: 8vw;
+}
+
+.j-fs-09vw {
+  font-size: 9vw;
+}
+
+.j-fs-10vw {
+  font-size: 10vw;
+}
+
+.j-fs-11vw {
+  font-size: 11vw;
+}
+
+.j-fs-115vw {
+  font-size: 11.5vw;
 }

@@ -1,7 +1,4 @@
 ---
-layout: base
+layout: issues
 title: Vertigo
-permalink: /:basename
 ---
-
-# {{ page.title }}

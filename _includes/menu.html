@@ -13,19 +13,32 @@
   }
 
   .menu {
+    padding: 10px;
     position: fixed;
     bottom: 0;
     right: 0;
     background-color: red;
-    padding: 10px 20px;
     font-size: 40px;
     z-index: 21;
     margin-bottom: 100px;
   }
 
+  .menu div, .menu a {
+    line-height: 1;
+  }
+
   .menu a {
     text-decoration: none;
     font-size: 16px;
+    color: white;
+  }
+
+  .menu a:hover {
+    text-decoration: underline;
+  }
+
+  .menu-sub {
+    padding-left: .7em;
   }
 
   .hidden {
@@ -38,13 +51,15 @@
 </div>
 
 <div class="menu hidden">
-  <div> <a href="/index.html#what">ABOUT</a> </div>
-  <div> <a href="/index.html#vertigo">VUOTO #1 VERTIGO</a> </div>
-    <div> <a href="/index.html#controverso">VUOTO #2 VERTIGO</a> </div>
-    <div> <a href="/index.html#getyourcopy">GET YOUR COPY</a> </div>
-    <hr>
-    <div> <a target="_blank" href="/talks"> &#8594; VUOTO TALKS</a> </div>
-    <div> <a target="_blank" href="/aroundtables">&#8594; AROUND TABLES</a> </div>
+  <div> <a class="menu-link" href="/#begin">HOME</a> </div>
+  <div> <a class="menu-link menu-sub" href="/#what">ABOUT</a> </div>
+  <div> <a class="menu-link menu-sub" href="/#festa">VUOTO #3 FESTA</a> </div>
+  <div> <a class="menu-link menu-sub" href="/#controverso">VUOTO #2 CONTROVERSO</a> </div>
+  <div> <a class="menu-link menu-sub" href="/#vertigo">VUOTO #1 VERTIGO</a> </div>
+  <div> <a class="menu-link menu-sub" href="/#getyourcopy">GET YOUR COPY</a> </div>
+  <hr>
+  <div> <a class="menu-link" target="_blank" href="/talks">VUOTO TALKS &#8594; </a> </div>
+  <div> <a class="menu-link" target="_blank" href="/aroundtables">AROUND TABLES &#8594; </a> </div>
   <div class="menu-button menu-close"> x </div>
 </div>
 
@@ -56,6 +71,12 @@
 
   document.querySelector(".menu-close").addEventListener("click", function() {
     document.querySelector(".menu").classList.toggle("hidden");
+  })
+
+  document.querySelectorAll(".menu-link").forEach(item => {
+    item.addEventListener("click", function() {
+      document.querySelector(".menu").classList.toggle("hidden");
+    })
   })
 
 </script>
