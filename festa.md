@@ -2,7 +2,8 @@
 layout: issues
 number: 3
 title: "FESTA"
-date: "settembre 2021"
+date: "SETTEMRE 2021"
+cover: "res/pics/vuoto3-cover.jpg"
 ---
 
 Festa, celebrazione collettiva, ritualità. Per sua natura intrinseca, lo spazio urbano accoglie e stimola la convivialità di gruppo, dalle modalità più formali e cristallizzate nel tempo delle processioni e dei riti religiosi, fino a momenti di celebrazione collettiva più spontanei, sperimentali e politici, come le sfilate carnevalesche, le street parade, e i free party. La Festa è un momento di sospensione delle modalità ‘normali’ di relazione tra le persone e di uso dello spazio. È l’occasione per abbandonare le logiche ‘razionaliste’ di allocazione delle risorse e di sperimentare temporaneamente modalità alternative e innovative. Lo stato di eccezione decretato dalla festa permette l’emergere di realtà future, annidate nell’esistente. E questa dimensione ‘eccedente’ rende la festa il luogo – e il tempo – di elezione per l’imprevisto, l’indeterminato, l’inatteso.
@@ -29,12 +30,3 @@ Di sicuro, non è tempo di aspettare la gioia. È tempo di andarla a cercare, di
 
 
 {% include sfogliatore.html %}
-
-
-## &nbsp;
-## &nbsp;
-## &nbsp;
-## TRANSMEDIALE
-## &nbsp;
-
-{% include festa-transmediale.html %}

@@ -11,10 +11,10 @@
     <style media="screen">
 
       body {
-        background-color: lightblue;
+        background-color: black;
       }
 
-      {% assign color = "rgba(255,0,0,.4)" %}
+      {% assign color = "rgba(255,255,255,.8)" %}
 
       .glitch {
         color: {{color}};
@@ -32,22 +32,35 @@
 
       {% include issues-header.html %}
 
-      <div class="container">
+      <div class="container px-5">
 
-        <div style="height: 10em">  </div>
-          <p class="j-fw-400 j-lh-08 glitch text-end" style="font-size: 2em;">VUOTO {{ page.number }}</h2>
-          <h1 class="j-fw-700 j-lh-08 glitch text-center  " style="font-size: 7em;">{{ page.title }}</h1>
-          <h2 class="j-fw-400 j-lh-08 glitch" style="font-size: 2em;">{{ page.date }}</h2>
-        <div style="height: 10em">  </div>
 
-        <div content="content" class="j-lh-12 col-10">
+
+        <div class="pt-3">
+          <img class="img-fluid" src="{{page.cover}}" alt="cover">
+        </div>
+
+        <div class="mt-5">
+          <p class="j-fw-200 text-white j-lh-08 m-0 mb-2" style="font-size: 2em;">VUOTO {{ page.number }}</h2>
+          <h1 class="j-fw-700 j-lh-08 glitch" style="font-size: 4em;">{{ page.title }}</h1>
+        </div>
+
+
+        <div content="content" class="j-lh-12 text-white mt-4 j-ffmetaserif j-fw-300 j-fs-120em">
           {{ content }}
+        </div>
+
+        <div class="mt-5  ">
+          <h2 class="text-white j-fs-200em j-fw-700 j-lh-08">CONTENUTI<br>AGGIUNTIVI</h2>
+          {% include festa-transmediale.html %}
         </div>
 
       </div>
 
       {% include menu.html %}
       {% include scripts-after.html %}
+
+
 
   </body>
 
