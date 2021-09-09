@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    {% include meta-and-title.html %}
+
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/skj1zoz.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style media="screen">
+
+      body {
+        background-color: black;
+      }
+
+
+      .network h3 {
+        font-family: SangBleuEmpire-Medium, serif;
+      }
+
+      .acquista {
+        font-family: SangBleuEmpire-Medium, serif;
+      }
+
+      #getyourcopy {
+        position: relative;
+      }
+
+      .int {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        line-height: 1.2;
+        transition: 1s;
+      }
+
+      .int:nth-child(1) {
+        transform: translateY(-.5em);
+      }
+      .int:nth-child(2) {
+        transform: translateY(-.1em);
+      }
+      .int:nth-child(3) {
+        transform: translateY(-.15em);
+      }
+      .int:nth-child(4) {
+        transform: translateY(-.2em);
+      }
+      .int:nth-child(5) {
+        transform: translateY(-.25em);
+      }
+      .int:nth-child(6) {
+        transform: translateY(-.3em);
+      }
+      .int:nth-child(7) {
+        transform: translateY(-.35em);
+      }
+      .int:nth-child(8) {
+        transform: translateY(-.4em);
+      }
+      .int:nth-child(9) {
+        transform: translateY(-.45em);
+      }
+
+
+
+      .network p {
+        font-size: 0.9em;
+        text-align: center;
+        margin-bottom: 0;
+      }
+
+      .network h2.sections {
+        font-size: 2em;
+        margin-top: 2em;
+        font-weight: 300;
+        line-height: 0.9;
+        margin-bottom: 0.3em;
+      }
+
+      .network h2.cities {
+        font-weight: 400;
+        font-size: 1em;
+        margin-top: 2em;
+        margin-bottom: 0;
+        text-transform: uppercase;
+      }
+
+      .network h3 {
+        font-size: 1.2em;
+        margin-top: 0.4em;
+        margin-bottom: 0;
+      }
+
+      .network h3.online {
+        margin-top: 1em;
+      }
+
+      a,
+      a:visited,
+      a:active {
+        color: inherit;
+      }
+
+      .links {
+        margin-top: .5em;
+        font-weight: 600;
+      }
+
+      .links a {
+        color: yellow;
+      }
+
+      .soldout a {
+        font-weight: 400;
+      }
+
+      .soldout::after, .soldout::before {
+        font-weight: 400;
+        margin-left: 0.5em;
+        font-size: 0.8em;
+        content: "SOLDOUT";
+        background-color: black;
+        color: white;
+      }
+
+      .soldout::before {
+        background-color: transparent;
+        color: transparent;
+      }
+
+      .active::after, .active::before {
+        font-weight: 400;
+        margin-left: 0.5em;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+        font-size: 0.8em;
+        content: "BUY IT!";
+        background-color: white;
+        color: black;
+      }
+
+      .active::before {
+        background-color: transparent;
+        color: transparent;
+      }
+
+    </style>
+
+  </head>
+
+
+  <body>
+
+      {% include bookazine-header.html %}
+
+      <div class="container text-white py-4">
+
+        <div class="text-center" id="getyourcopy" >
+
+          <div style="height: 3em"></div>
+
+          <div class="acquista" style="font-size: 14vw">
+            <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
+            <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
+            <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
+            <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
+            <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
+            <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
+            <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
+            <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
+            <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
+          </div>
+
+          <div style="height: 8em"></div>
+
+          <div class="network">
+
+            <div content="distribution network">
+              <h2 class="sections">ONLINE</h2>
+
+              <h3 class="online">leporello</h3>
+              <p class="links soldout"> <a target="_blank" href="https://leporello-books.com/prodotto/vuoto-1-vertigo/"> VUOTO 1 / VERTIGO</a></p>
+              <p class="links active"> <a target="_blank" href="https://leporello-books.com/prodotto/vuoto-2-controverso/"> VUOTO 2 / CONTROVERSO </a></p>
+
+              <h3 class="online">spazio b**k</h3>
+              <p class="links soldout"> <a target="_blank" href="https://www.spaziobk.com/prodotto/libri/vuoto-1-vertigo/">VUOTO 1 / VERTIGO</a></p>
+              <p class="links soldout"> <a target="_blank" href="https://www.spaziobk.com/prodotto/libri/vuoto-2-controverso/">VUOTO 2 / CONTROVERSO</a></p>
+
+
+              <h3 class="online">edicola 518</h3>
+              <p class="links soldout"> <a target="_blank" href="https://www.emergenzeweb.it/">VUOTO 1 / VERTIGO</a></p>
+              <p class="links soldout"> <a target="_blank" href="https://www.emergenzeweb.it/prodotto/vuoto-%E2%84%96-2/"> VUOTO 2 / CONTROVERSO </a></p>
+
+              <h2 class="sections">LIBRERIE</h2>
+
+              {% for city in site.data.librerie %}
+                <div class="">
+                  <h2 class=cities>{{city.luogo}}</h2>
+                    {% for libreria in city.librerie %}
+                    <div class="">
+                      <h3><a href="{{ libreria.web }}">{{libreria.nome}}</a></h3>
+                      <p>{{libreria.indirizzo}}</p>
+                  </div>
+                  {% endfor %}
+                </div>
+              {% endfor %}
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div style="height: 5em;">
+      </div>
+
+      {% include bookazine-footer.html %}
+
+      {% include menu.html %}
+      {% include scripts-after.html %}
+
+
+
+  </body>
+
+</html>

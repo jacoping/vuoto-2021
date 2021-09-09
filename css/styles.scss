@@ -1,8 +1,15 @@
 ---
 ---
 
+@font-face {
+  font-family: "SangBleuEmpire-Medium";
+  src: url("/res/fonts/SangBleuEmpire-Medium-WebS.woff2") format("woff2"),
+       url("/res/fonts/SangBleuEmpire-Medium-WebS.woff") format("woff");
+}
+
+
 body {
-  font-family: neue-haas-grotesk-display, Helvetica, sans-serif;
+  font-family: neue-haas-grotesk-display, Helvetica, sans-serif !important;
 }
 
 .j-ffmetaserif {
@@ -95,6 +102,14 @@ body {
 
 .j-fs-130em {
   font-size: 1.30em;
+}
+
+.j-fs-140em {
+  font-size: 1.40em;
+}
+
+.j-fs-150em {
+  font-size: 1.50em;
 }
 
 .j-fs-180em {

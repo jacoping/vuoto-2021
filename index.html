@@ -46,6 +46,51 @@ title: Home
     <div class="goblack"></div>
 
     <div class="spacer100"></div>
+
+
+    <div class="">
+
+      {% assign issuespages = site.pages | where: "layout", "issues" | sort: "number" | reverse %}
+
+      {% for page in issuespages %}
+
+      <div class="px-5">
+        <img class="img-fluid" src="{{page.cover}}" alt="" style="width: 100%; height: auto;">
+        <div class="my-3 lh-1">
+          <div class="pt-1">
+            VUOTO BOOKAZINE #{{page.number}}
+          </div>
+          <div class="j-fw-700 j-fs-150em">
+            {{page.title}}
+          </div>
+          <div class="mt-1">
+            {{page.date}}
+          </div>
+          <div class="mt-3">
+            <p><a class="links text-decoration-none" href="/festa">VAI ALLA PAGINA &#8594;</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-5">
+      </div>
+      <div class="py-5">
+      </div>
+
+      {% endfor %}
+
+      <div class="py-5">
+      </div>
+      <div class="py-5">
+      </div>
+      <div class="py-5">
+      </div>
+      <div class="py-5">
+      </div>
+
+    </div>
+
+    <!--
     <div id="controverso" class="issue-container">
       <div class="description">
         <h2>
@@ -179,61 +224,12 @@ title: Home
       <div class="spacer100"></div>
     </div>
 
-    <div id="getyourcopy">
-      <div class="pre-acquista"></div>
-      <div class="acquista">
-        <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
-        <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
-        <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
-        <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
-        <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
-        <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
-        <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
-        <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
-        <div class="int"> ACQUISTA<br> UNA<br> COPIA </div>
-      </div>
-      <div class="pre-network"></div>
-      <div class="network">
-
-
-
-        <div content="distribution network">
-          <h2 class="sections">ONLINE</h2>
-
-          <h3 class="online">leporello</h3>
-          <p class="links soldout"> <a target="_blank" href="https://leporello-books.com/prodotto/vuoto-1-vertigo/"> VUOTO 1 / VERTIGO</a></p>
-          <p class="links active"> <a target="_blank" href="https://leporello-books.com/prodotto/vuoto-2-controverso/"> VUOTO 2 / CONTROVERSO </a></p>
-
-          <h3 class="online">spazio b**k</h3>
-          <p class="links soldout"> <a target="_blank" href="https://www.spaziobk.com/prodotto/libri/vuoto-1-vertigo/">VUOTO 1 / VERTIGO</a></p>
-          <p class="links soldout"> <a target="_blank" href="https://www.spaziobk.com/prodotto/libri/vuoto-2-controverso/">VUOTO 2 / CONTROVERSO</a></p>
-
-
-          <h3 class="online">edicola 518</h3>
-          <p class="links soldout"> <a target="_blank" href="https://www.emergenzeweb.it/">VUOTO 1 / VERTIGO</a></p>
-          <p class="links soldout"> <a target="_blank" href="https://www.emergenzeweb.it/prodotto/vuoto-%E2%84%96-2/"> VUOTO 2 / CONTROVERSO </a></p>
-
-          <h2 class="sections">LIBRERIE</h2>
-
-          {% for city in site.data.librerie %}
-            <div class="">
-              <h2 class=cities>{{city.luogo}}</h2>
-                {% for libreria in city.librerie %}
-                <div class="">
-                  <h3><a href="{{ libreria.web }}">{{libreria.nome}}</a></h3>
-                  <p>{{libreria.indirizzo}}</p>
-              </div>
-              {% endfor %}
-            </div>
-          {% endfor %}
-
-        </div>
-
-      </div>
-    </div>
-
     <div class="spacer100"></div>
   </div>
+
+
+  -->
+
 
   <div class="footer gowhite" style="font-weight: 200">
     <div class="unprogettodi">
@@ -296,265 +292,6 @@ title: Home
 
 
 
-    // SCROLLER IMMAGINI
-
-    // define images
-    var images_issue1 = [
-      "/pics/vuoto1_2_low.jpg",
-      "/pics/vuoto1_3_low.jpg",
-      "/pics/vuoto1_4_low.jpg",
-      "/pics/vuoto1_5_low.jpg",
-      "/pics/vuoto1_6_low.jpg",
-      "/pics/vuoto1_7_low.jpg",
-      "/pics/vuoto1_8_low.jpg",
-      "/pics/vuoto1_9_low.jpg",
-      "/pics/vuoto1_10_low.jpg",
-      "/pics/vuoto1_11_low.jpg",
-      "/pics/vuoto1_12_low.jpg",
-      "/pics/vuoto1_13_low.jpg",
-      "/pics/vuoto1_14_low.jpg",
-      "/pics/vuoto1_15_low.jpg",
-      "/pics/vuoto1_16_low.jpg",
-      "/pics/vuoto1_17_low.jpg",
-      "/pics/vuoto1_18_low.jpg",
-      "/pics/vuoto1_19_low.jpg",
-      "/pics/vuoto1_20_low.jpg",
-      "/pics/vuoto1_21_low.jpg",
-      "/pics/vuoto1_22_low.jpg",
-      "/pics/vuoto1_23_low.jpg",
-      "/pics/vuoto1_24_low.jpg",
-      "/pics/vuoto1_25_low.jpg",
-      "/pics/vuoto1_26_low.jpg",
-      "/pics/vuoto1_27_low.jpg",
-      "/pics/vuoto1_28_low.jpg",
-      "/pics/vuoto1_29_low.jpg",
-      "/pics/vuoto1_30_low.jpg",
-      "/pics/vuoto1_31_low.jpg",
-      "/pics/vuoto1_32_low.jpg",
-      "/pics/vuoto1_33_low.jpg",
-      "/pics/vuoto1_34_low.jpg",
-      "/pics/vuoto1_35_low.jpg",
-      "/pics/vuoto1_36_low.jpg",
-      "/pics/vuoto1_37_low.jpg",
-      "/pics/vuoto1_38_low.jpg",
-      "/pics/vuoto1_39_low.jpg",
-      "/pics/vuoto1_40_low.jpg",
-      "/pics/vuoto1_41_low.jpg",
-      "/pics/vuoto1_42_low.jpg",
-      "/pics/vuoto1_43_low.jpg",
-      "/pics/vuoto1_44_low.jpg"
-    ];
-
-    if (window.innerWidth > 500) {
-      images_issue1 = [
-        "/pics/vuoto1_2.jpg",
-        "/pics/vuoto1_3.jpg",
-        "/pics/vuoto1_4.jpg",
-        "/pics/vuoto1_5.jpg",
-        "/pics/vuoto1_6.jpg",
-        "/pics/vuoto1_7.jpg",
-        "/pics/vuoto1_8.jpg",
-        "/pics/vuoto1_9.jpg",
-        "/pics/vuoto1_10.jpg",
-        "/pics/vuoto1_11.jpg",
-        "/pics/vuoto1_12.jpg",
-        "/pics/vuoto1_13.jpg",
-        "/pics/vuoto1_14.jpg",
-        "/pics/vuoto1_15.jpg",
-        "/pics/vuoto1_16.jpg",
-        "/pics/vuoto1_17.jpg",
-        "/pics/vuoto1_18.jpg",
-        "/pics/vuoto1_19.jpg",
-        "/pics/vuoto1_20.jpg",
-        "/pics/vuoto1_21.jpg",
-        "/pics/vuoto1_22.jpg",
-        "/pics/vuoto1_23.jpg",
-        "/pics/vuoto1_24.jpg",
-        "/pics/vuoto1_25.jpg",
-        "/pics/vuoto1_26.jpg",
-        "/pics/vuoto1_27.jpg",
-        "/pics/vuoto1_28.jpg",
-        "/pics/vuoto1_29.jpg",
-        "/pics/vuoto1_30.jpg",
-        "/pics/vuoto1_31.jpg",
-        "/pics/vuoto1_32.jpg",
-        "/pics/vuoto1_33.jpg",
-        "/pics/vuoto1_34.jpg",
-        "/pics/vuoto1_35.jpg",
-        "/pics/vuoto1_36.jpg",
-        "/pics/vuoto1_37.jpg",
-        "/pics/vuoto1_38.jpg",
-        "/pics/vuoto1_39.jpg",
-        "/pics/vuoto1_40.jpg",
-        "/pics/vuoto1_41.jpg",
-        "/pics/vuoto1_42.jpg",
-        "/pics/vuoto1_43.jpg",
-        "/pics/vuoto1_44.jpg"
-      ];
-    }
-
-    var images_issue2 = [
-      "/pics/vuoto2_1_low.jpg",
-      "/pics/vuoto2_3_low.jpg",
-      "/pics/vuoto2_4_low.jpg",
-      "/pics/vuoto2_5_low.jpg",
-      "/pics/vuoto2_6_low.jpg",
-      "/pics/vuoto2_7_low.jpg",
-      "/pics/vuoto2_8_low.jpg",
-      "/pics/vuoto2_9_low.jpg",
-      "/pics/vuoto2_10_low.jpg",
-      "/pics/vuoto2_11_low.jpg",
-      "/pics/vuoto2_12_low.jpg",
-      "/pics/vuoto2_13_low.jpg",
-      "/pics/vuoto2_14_low.jpg",
-      "/pics/vuoto2_15_low.jpg",
-      "/pics/vuoto2_16_low.jpg",
-      "/pics/vuoto2_17_low.jpg",
-      "/pics/vuoto2_18_low.jpg",
-      "/pics/vuoto2_19_low.jpg",
-      "/pics/vuoto2_20_low.jpg",
-      "/pics/vuoto2_21_low.jpg",
-      "/pics/vuoto2_22_low.jpg",
-      "/pics/vuoto2_23_low.jpg",
-      "/pics/vuoto2_24_low.jpg",
-      "/pics/vuoto2_25_low.jpg",
-      "/pics/vuoto2_26_low.jpg",
-      "/pics/vuoto2_27_low.jpg",
-      "/pics/vuoto2_28_low.jpg",
-      "/pics/vuoto2_29_low.jpg",
-      "/pics/vuoto2_30_low.jpg",
-      "/pics/vuoto2_31_low.jpg",
-      "/pics/vuoto2_32_low.jpg",
-      "/pics/vuoto2_33_low.jpg",
-      "/pics/vuoto2_34_low.jpg",
-      "/pics/vuoto2_35_low.jpg",
-      "/pics/vuoto2_36_low.jpg",
-      "/pics/vuoto2_37_low.jpg",
-      "/pics/vuoto2_38_low.jpg",
-      "/pics/vuoto2_39_low.jpg",
-      "/pics/vuoto2_40_low.jpg",
-      "/pics/vuoto2_41_low.jpg",
-      "/pics/vuoto2_42_low.jpg",
-      "/pics/vuoto2_43_low.jpg",
-      "/pics/vuoto2_44_low.jpg",
-      "/pics/vuoto2_45_low.jpg",
-      "/pics/vuoto2_46_low.jpg",
-      "/pics/vuoto2_47_low.jpg",
-      "/pics/vuoto2_48_low.jpg",
-      "/pics/vuoto2_49_low.jpg",
-      "/pics/vuoto2_50_low.jpg",
-      "/pics/vuoto2_51_low.jpg",
-      "/pics/vuoto2_52_low.jpg",
-      "/pics/vuoto2_53_low.jpg",
-      "/pics/vuoto2_54_low.jpg",
-      "/pics/vuoto2_55_low.jpg",
-      "/pics/vuoto2_56_low.jpg",
-      "/pics/vuoto2_57_low.jpg",
-      "/pics/vuoto2_58_low.jpg"
-    ];
-
-    if (window.innerWidth > 500) {
-      images_issue2 = [
-        "/pics/vuoto2_1.jpg",
-        "/pics/vuoto2_3.jpg",
-        "/pics/vuoto2_4.jpg",
-        "/pics/vuoto2_5.jpg",
-        "/pics/vuoto2_6.jpg",
-        "/pics/vuoto2_7.jpg",
-        "/pics/vuoto2_8.jpg",
-        "/pics/vuoto2_9.jpg",
-        "/pics/vuoto2_10.jpg",
-        "/pics/vuoto2_11.jpg",
-        "/pics/vuoto2_12.jpg",
-        "/pics/vuoto2_13.jpg",
-        "/pics/vuoto2_14.jpg",
-        "/pics/vuoto2_15.jpg",
-        "/pics/vuoto2_16.jpg",
-        "/pics/vuoto2_17.jpg",
-        "/pics/vuoto2_18.jpg",
-        "/pics/vuoto2_19.jpg",
-        "/pics/vuoto2_20.jpg",
-        "/pics/vuoto2_21.jpg",
-        "/pics/vuoto2_22.jpg",
-        "/pics/vuoto2_23.jpg",
-        "/pics/vuoto2_24.jpg",
-        "/pics/vuoto2_25.jpg",
-        "/pics/vuoto2_26.jpg",
-        "/pics/vuoto2_27.jpg",
-        "/pics/vuoto2_28.jpg",
-        "/pics/vuoto2_29.jpg",
-        "/pics/vuoto2_30.jpg",
-        "/pics/vuoto2_31.jpg",
-        "/pics/vuoto2_32.jpg",
-        "/pics/vuoto2_33.jpg",
-        "/pics/vuoto2_34.jpg",
-        "/pics/vuoto2_35.jpg",
-        "/pics/vuoto2_36.jpg",
-        "/pics/vuoto2_37.jpg",
-        "/pics/vuoto2_38.jpg",
-        "/pics/vuoto2_39.jpg",
-        "/pics/vuoto2_40.jpg",
-        "/pics/vuoto2_41.jpg",
-        "/pics/vuoto2_42.jpg",
-        "/pics/vuoto2_43.jpg",
-        "/pics/vuoto2_44.jpg",
-        "/pics/vuoto2_45.jpg",
-        "/pics/vuoto2_46.jpg",
-        "/pics/vuoto2_47.jpg",
-        "/pics/vuoto2_48.jpg",
-        "/pics/vuoto2_49.jpg",
-        "/pics/vuoto2_50.jpg",
-        "/pics/vuoto2_51.jpg",
-        "/pics/vuoto2_52.jpg",
-        "/pics/vuoto2_53.jpg",
-        "/pics/vuoto2_54.jpg",
-        "/pics/vuoto2_55.jpg",
-        "/pics/vuoto2_56.jpg",
-        "/pics/vuoto2_57.jpg",
-        "/pics/vuoto2_58.jpg"
-      ];
-    }
-
-    durationPerPic = "20vh";
-
-    let createpics = function(pics, container) {
-
-      let imagebox = document.createElement('div');
-      imagebox.classList.add("imagebox");
-      container.appendChild(imagebox);
-
-      pics.forEach(function(el, idx) {
-        let img = document.createElement('img');
-        let myclass = "img" + idx;
-        img.classList.add(myclass);
-        img.src = el;
-        imagebox.appendChild(img);
-        let div = document.createElement('div');
-        div.style.height = durationPerPic;
-        container.appendChild(div);
-
-
-        if (idx === 0) {
-          img.classList.add("alwaysactive");
-        }
-
-        new ScrollMagic.Scene({
-            triggerElement: div,
-            triggerHook: 0.4
-          })
-          .setClassToggle(img, "active")
-          .addTo(controller);
-
-      });
-      let duration = durationPerPic * pics.length;
-
-    }
-
-    let container1 = document.querySelector('.pics_container_issue1');
-    createpics(images_issue1, container1);
-
-    let container2 = document.querySelector('.pics_container_issue2');
-    createpics(images_issue2, container2);
 
 
 

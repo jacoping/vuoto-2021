@@ -2,9 +2,21 @@
 layout: issues
 number: 3
 title: "FESTA"
-date: "SETTEMRE 2021"
+title-size: 3
+date: "Settembre 2021"
+isbn: "9788894576924"
+size: "13.8x19.4cm, 112 pagine"
+price: "15€"
+folder-high: "/res/pics/bookazine/vuoto3high/"
+folder-low: "/res/pics/bookazine/vuoto3low/"
 cover: "res/pics/vuoto3-cover.jpg"
+brief: "Festa, celebrazione collettiva, ritualità. Spontanea o formale, la Festa è momento di libertà, di rottura, di esagerazione. Un momento di sospensione delle modalità ‘normali’ di uso dello spazio. Con questa pubblicazione abbiamo voluto esplorare alcune sue dimensioni.
+A noi tamburi, maschere e scenografie. A Lei, la Festa, il nuovo Vuoto."
+more: festa-transmediale.html
 ---
+
+Festa, celebrazione collettiva, ritualità. Spontanea o formale, la Festa è momento di libertà, di rottura, di esagerazione. Un momento di sospensione delle modalità ‘normali’ di uso dello spazio. Con questa pubblicazione abbiamo voluto esplorare alcune sue dimensioni.
+A noi tamburi, maschere e scenografie. A Lei, la Festa, il nuovo Vuoto.
 
 Festa, celebrazione collettiva, ritualità. Per sua natura intrinseca, lo spazio urbano accoglie e stimola la convivialità di gruppo, dalle modalità più formali e cristallizzate nel tempo delle processioni e dei riti religiosi, fino a momenti di celebrazione collettiva più spontanei, sperimentali e politici, come le sfilate carnevalesche, le street parade, e i free party. La Festa è un momento di sospensione delle modalità ‘normali’ di relazione tra le persone e di uso dello spazio. È l’occasione per abbandonare le logiche ‘razionaliste’ di allocazione delle risorse e di sperimentare temporaneamente modalità alternative e innovative. Lo stato di eccezione decretato dalla festa permette l’emergere di realtà future, annidate nell’esistente. E questa dimensione ‘eccedente’ rende la festa il luogo – e il tempo – di elezione per l’imprevisto, l’indeterminato, l’inatteso.
 
@@ -27,6 +39,3 @@ La festa è il momento della condivisione totale, della comunione universale. Tu
 *Con una certa nostalgia, abbiamo percorso insieme a Federica Fava le calde strade dell’Estate Romana niccoliniana, per poi fare un tuffo nell’effervescenza culturale odierna che avvolge le città di Napoli e Roma. E sorprendentemente e con gioioso raccoglimento accompagniamo Sara Ricciardi alla caccia di monumenti funerari agli amati, mutando la sobrietà degli oggetti in una nuova celebrazione dei riti di vita/morte. Infine, ci è piaciuto ricordare lo spirito libero dei free party a cavallo del millennio con Pablito el Drito, così come addentrarci nelle storie dei movimenti, per ballare insieme a Valerio Bindi ed ai suoi personaggi rivoluzionari.*
 
 Di sicuro, non è tempo di aspettare la gioia. È tempo di andarla a cercare, di venerarla e di offrirgli i nostri migliori doni. A noi tamburi, maschere e scenografie. A Lei, la Festa, il nuovo Vuoto.
-
-
-{% include sfogliatore.html %}

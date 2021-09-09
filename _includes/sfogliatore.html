@@ -1,0 +1,98 @@
+<style media="screen">
+  /* styles for image scroller */
+
+  .page {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  img.active,
+  img.alwaysactive {
+    opacity: 1;
+  }
+
+  .imagebox {
+    position: sticky;
+    top: 20vh;
+  }
+</style>
+
+<div class="text-white">
+</div>
+
+<div class="pics_container">
+  <div class="sfogliatore_container">
+  </div>
+</div>
+
+<!-- spacer -->
+<div class="">
+  <img src="/res/pics/sfogliatore-spacer.png" alt="spacer" style="width: 100%; height: auto">
+</div>
+
+<script>
+
+      var controller = new ScrollMagic.Controller();
+
+
+      // SCROLLER IMMAGINI
+
+      // define images
+      var images_issue1 = [
+        {% for image in site.static_files %}{% if image.path contains include.folder_low %}
+        "{{image.path }}",{% endif %}{% endfor %}
+      ];
+
+      if (window.innerWidth > 500) {
+        images_issue1 = [
+          {% for image in site.static_files %}{% if image.path contains include.folder_high %}
+          "{{image.path }}",{% endif %}{% endfor %}
+        ];
+      }
+
+
+
+
+      durationPerPic = "20vh";
+
+
+      let createpics = function(pics, container) {
+
+        let imagebox = document.createElement('div');
+        imagebox.classList.add("imagebox");
+        container.appendChild(imagebox);
+
+        pics.forEach(function(el, idx) {
+          let img = document.createElement('img');
+          img.classList.add("page");
+          img.src = el;
+          imagebox.appendChild(img);
+          let div = document.createElement('div');
+          div.style.height = durationPerPic;
+          container.appendChild(div);
+
+          if (idx === 0) {
+            img.classList.add("alwaysactive");
+          }
+
+          new ScrollMagic.Scene({
+              triggerElement: div,
+              triggerHook: 0.4
+            })
+            .setClassToggle(img, "active")
+            .addTo(controller);
+
+        });
+        let duration = durationPerPic * pics.length;
+
+      }
+
+
+      let container1 = document.querySelector('.sfogliatore_container');
+
+      createpics(images_issue1, container1);
+
+
+</script>

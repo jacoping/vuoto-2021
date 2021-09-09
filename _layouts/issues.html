@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://use.typekit.net/skj1zoz.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
+    <script src="/res/js/ScrollMagic.js"></script>
+
     <style media="screen">
 
       body {
@@ -30,36 +32,65 @@
 
   <body>
 
-      {% include issues-header.html %}
+      {% include bookazine-header.html %}
 
-      <div class="container px-5">
+      <div class="container">
 
+        <div class="px-5">
+          <div class="pt-3">
+            <img class="img-fluid" src="{{page.cover}}" alt="cover">
+          </div>
 
+          <div class="mt-5">
+            <p class="j-fw-200 text-white j-lh-08 m-0 mb-2" style="font-size: 2em;">VUOTO {{ page.number }}</p>
+            <h1 class="j-fw-700 j-lh-08 text-white" style="font-size: {{ page.title-size }}em;">{{ page.title }}</h1>
+          </div>
 
-        <div class="pt-3">
-          <img class="img-fluid" src="{{page.cover}}" alt="cover">
+          <div content="content" class="j-lh-12 text-white mt-4 j-ffmetaserif j-fw-300 j-fs-120em">
+            {{ page.brief }}
+          </div>
         </div>
 
-        <div class="mt-5">
-          <p class="j-fw-200 text-white j-lh-08 m-0 mb-2" style="font-size: 2em;">VUOTO {{ page.number }}</h2>
-          <h1 class="j-fw-700 j-lh-08 glitch" style="font-size: 4em;">{{ page.title }}</h1>
+        <div content="sfogliatore" class="mt-5">
+          {% include sfogliatore.html
+            folder_high = page.folder-high
+            folder_low  = page.folder-low
+          %}
         </div>
 
-
-        <div content="content" class="j-lh-12 text-white mt-4 j-ffmetaserif j-fw-300 j-fs-120em">
-          {{ content }}
+        <div content="more info" class="mt-4 j-fs-120em j-fw-200 text-white j-lh-08">
+          <p class="m-0 mb-2" > VUOTO {{ page.number }} / {{ page.title }} </p>
+          <p class="m-0 mb-2" > {{ page.date }} </p>
+          <p class="m-0 mb-2" > ISBN {{ page.isbn }} </p>
+          <p class="m-0 mb-2" > {{ page.size }} </p>
+          <p class="m-0 mb-2" > {{ page.price }} </p>
         </div>
 
-        <div class="mt-5  ">
-          <h2 class="text-white j-fs-200em j-fw-700 j-lh-08">CONTENUTI<br>AGGIUNTIVI</h2>
-          {% include festa-transmediale.html %}
+        <div class="" style="height: 7em;">
+        </div>
+
+        <div class="mt-5 h2">
+          <a class="text-white text-decoration-none" href="#">COMPRA UNA COPIA >>></a>
+        </div>
+
+        {% if page.more %}
+        <div class="" style="height: 7em;">
+        </div>
+          <div class="mt-5">
+            <h2 class="text-white j-fs-200em j-fw-700 j-lh-08">CONTENUTI<br>AGGIUNTIVI</h2>
+            {% include festa-transmediale.html %}
+          </div>
+        {% endif %}
+
+        <div class="" style="height: 7em;">
         </div>
 
       </div>
 
+      {% include bookazine-footer.html %}
+
       {% include menu.html %}
       {% include scripts-after.html %}
-
 
 
   </body>

@@ -194,9 +194,15 @@
     z-index: 9;
   }
 
+
+
   .logo-container.closed {
     line-height: .015;
     top: 11vw;
+  }
+
+  .logo-container h1 {
+    line-height: inherit;
   }
 
   body,
