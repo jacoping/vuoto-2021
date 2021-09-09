@@ -2,6 +2,12 @@
 
 </style>
 
+<div class="row mt-4">
 {% for item in site.data.festa-transmediale %}
-  <p style="border: 3px solid white; padding: .5em; margin-top: 1em; max-width: 20em; box-shadow: .3em .3em #dde26e;; "> <span class="j-fw-700"></span> <a style="color: #dde26e;" target="_blank" href="{{ item.link }}">{{ item.title }}</a> </p>
+<div class="col-sm-6">
+  <p style="border: 3px solid white; padding: .5em; box-shadow: .3em .3em #dde26e;; ">
+    <a style="color: #dde26e;" target="_blank" href="{{ item.link }}">{{ item.title }}</a>
+  </p>
+</div>
 {% endfor %}
+</div>
