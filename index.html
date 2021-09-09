@@ -5,9 +5,9 @@ title: Home
 
 
   <div id="begin" class="header">
-    <div class="logo-container">
+    <div class="logo-container random-colored">
       <p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p><p>VUOTO</p>
-      <h1 class="last">VUOTO</h1>
+      <h1 class="last text-white">VUOTO</h1>
     </div>
   </div> <!-- logo-wrapper -->
 
@@ -55,8 +55,8 @@ title: Home
       {% for page in issuespages %}
 
       <div class="px-5">
-        <img class="img-fluid" src="{{page.cover}}" alt="" style="width: 100%; max-width: 60vh; height: auto;">
-        <div class="my-3 lh-1">
+        <img class="img-fluid" src="{{page.cover}}" alt="" style="width: 100%; max-width: 600px; height: auto;">
+        <div class="my-3 lh-1" style="font-size: min(6.25vw, 30px)">
           <div class="pt-1">
             VUOTO BOOKAZINE #{{page.number}}
           </div>
@@ -67,7 +67,7 @@ title: Home
             {{page.date}}
           </div>
           <div class="mt-3">
-            <p><a class="links text-decoration-none" href="/festa">VAI ALLA PAGINA &#8594;</a></p>
+            <p><a class="links random-colored text-decoration-none" href="/festa">VAI ALLA PAGINA &#8594;</a></p>
           </div>
         </div>
       </div>
@@ -89,146 +89,6 @@ title: Home
       </div>
 
     </div>
-
-    <!--
-    <div id="controverso" class="issue-container">
-      <div class="description">
-        <h2>
-          <span class="issue-number">
-            VUOTO 2 /
-          </span>
-          <span class="issue-title">
-            CONTROVERSO
-          </span>
-        </h2>
-        <p>
-          Gli eventi legati alla diffusione globale del virus COVID‐19 nella prima metà del 2020 hanno provocato, tra le altre cose, un’improvvisa ed esplosiva diffusione delle pratiche di intervento temporaneo / adattivo / reattivo sulla città.
-          <br>
-          Per lo più sconosciute fino pochi mesi fa, anche tra iprofessionisti del progetto, espressioni come “spazi pubblici temporanei”, “ciclabili pop-up” e “urbanismo tattico” sono diventate comuni nei telegiornali e nei bar.
-          <br>
-          Sono argomenti pubblici di conversazione e dibattito. Sostenitori e contrari analizzano i progetti e immaginano sviluppi futuri.
-          <br>
-          Nel frattempo molte amministrazioni si sono lanciate in sperimentazioni reali e quelle che si erano già affacciate su questi temi, come Barcellona, Milano o Parigi, hanno drasticamente accelerato i loro tempi di lavoro.
-          <br>
-          <br>
-          Questa improvvisa accelerazione non può mancare di porre degli interrogativi. Stiamo assistendo ad una svolta nel modo di pensare i processi di trasformazione, viene da chiedersi, o è solo un momento di passaggio? Si sta consolidando in
-          questa dialettica un nuovo modo di fare città? La pianificazione territoriale tradizionale e la sua staticità sono modelli ancora sostenibili? Dopo l’esperienza del COVID 19 e i conseguenti piani adattivi, è evidente che la città
-          contemporanea debba maturare strumenti e programmi per rispondere rapidamente ad eventi improvvisi. Questo costante rapporto con l’inatteso può essere il futuro dell’urbanistica? Può la città essere costruita da tanti piccoli piccoli gesti,
-          anche inaspettati? Questi gesti possono davvero aprire la possibilità ad enormi trasformazioni?
-          <br>
-          <br>
-          <div class="tail">
-            <span class="issue-number-in-text"> VUOTO 2 / </span><span class="issue-title-in-text"> CONTROVERSO </span> raccoglie contributi da architetti, artisti, ricercatori con l’obiettivo di aprire un dibattito su questi temi. Un dialogo che
-            sarà sempre in continuo divenire, così come lo è la costruzione della città stessa.
-          </div>
-        </p>
-      </div>
-      <div class="links link-to-bookshops"> <a href="#getyourcopy">&#8594; acquista una copia</a></div>
-      <div class="spacer100"></div>
-      <div class="pics_container pics_container_issue2"></div>
-      <div class="spacer100"></div>
-      <div class="spacer100"></div>
-    </div>
-
-    <div class="spacer100"></div>
-    <div id="festa" class="issue-container">
-
-    <div class="description">
-      <h2>
-        <span class="issue-number">
-          VUOTO 3 /
-        </span>
-        <span class="issue-title">
-          FESTA
-        </span>
-      </h2>
-
-      VUOTO 3 È FUORI!
-      <div class="">
-        <a href="/#getyourcopy">COMPRALO!</a>
-      </div>
-      OPPURE <a href="/festa">SFOGLIALO ONLINE E GUARDA LA SEZIONE TRANSMEDIALE</a>
-
-    </div>
-
-    <div class="spacer100"></div>
-    <div id="vertigo" class="issue-container">
-
-      <div class="description">
-        <h2>
-          <span class="issue-number">
-            VUOTO 1 /
-          </span>
-          <span class="issue-title">
-            VERTIGO
-          </span>
-        </h2>
-        <p>
-          Vuoto è assenza di materia. È anche la
-          condizione perché qualcosa possa
-          muoversi. Il vuoto attrae: la vertigine e
-          l’aspirapolvere hanno lo stesso principio di
-          funzionamento. Dal nove marzo al quattro
-          maggio duemilaventi per cinquantasei
-          giorni la vita è stata risucchiata via dalle
-          città nelle quali abitiamo. Le strade, vuote.
-          Le piazze, vuote. Le stazioni, vuote. I
-          parchi, vuoti. Pedoni, automobili,
-          biciclette, autobus, tram, tutto sparito.
-          <br>
-          Cinquantasei giorni all’interno dei nostri
-          abitacoli, come astronauti, come
-          palombari. Per mezzo di periscopi digitali
-          abbiamo ammirato la nostra stessa
-          assenza. Abbiamo aspettato col fiato
-          sospeso. Abbiamo scritto, disegnato,
-          fotografato, sproloquiato. Siamo stati
-          impazienti annoiati irrequieti. Intimoriti
-          smarriti alienati. Sereni eccitati entusiasti.
-          Abbiamo telefonato messaggiato
-          videochiamato rilasciato interviste
-          videoregistrato. Abbiamo festeggiato
-          compleanni e celebrato anniversari.
-          <br>
-          Dalla finestra abbiamo osservato
-          ossessivamente lo spazio attorno a casa,
-          finendo per vedere cose nuove. Abbiamo
-          sentito cosa ci mancava davvero, e cosa
-          non ci mancava per nulla. Abbiamo
-          conosciuto una città senza spazio
-          pubblico. Abbiamo letto la diffidenza negli
-          sguardi degli sconosciuti. Asfissiati dalla
-          vacuità abbiamo riflettuto sulle nostre vite,
-          sulle nostre ambizioni, sulle nostre
-          speranze. Abbiamo messo in discussione
-          tutto, e poi lo abbiamo riabilitato.
-          <br>
-          Poi, improvvisamente come era iniziato,
-          tutto questo è finito. Mentre quello che
-          credevamo un periodo indimenticabile
-          svaniva rapidamente nella memoria,
-          lasciando solo un vago senso di nostalgia,
-          abbiamo raccolto testi, interviste,
-          fotografie, disegni, collage.
-          <br>
-          <br>
-          <div class="tail">
-            <span class="issue-number-in-text"> VUOTO 1 / </span><span class="issue-title-in-text"> VERTIGO </span> è il racconto/diario di queste settimane, per come le abbiamo vissute individualmente e collettivamente.
-          </div>
-        </p>
-      </div>
-      <div class="links link-to-bookshops"> <a href="#getyourcopy">&#8594; acquista una copia</a></div>
-      <div class="spacer100"></div>
-      <div class="pics_container pics_container_issue1"></div>
-      <div class="spacer100"></div>
-      <div class="spacer100"></div>
-    </div>
-
-    <div class="spacer100"></div>
-  </div>
-
-
-  -->
 
 
   <div class="footer gowhite" style="font-weight: 200">
@@ -302,11 +162,11 @@ title: Home
     let style = document.querySelector('style');
 
     let couples = [
-      "html.blue {background: #8d08f7;}            .logo-container p, .links {color: #50e95d;}", //juan
-      "html.blue {background: rgb(12,128,126);}    .logo-container p, .links {color: rgb(255, 110, 225);}", //riso birthday
-      "html.blue {background: rgb(12,128,126);}    .logo-container p, .links {color: rgb(248,231,28);}", //riso 2
-      "html.blue {background: #7FFF00;}            .logo-container p, .links {color: #8A2BE2;}", //ufogreen protonpurple
-      "html.blue {background: #E419FF;}            .logo-container p, .links {color: #7FFF00;}", //ufogreen adobe
+      "html.blue {background: #8d08f7;}         .menu, .menu-button {background: #8d08f7 !important;}             .random-colored {color: #50e95d;}", //juan
+      "html.blue {background: rgb(12,128,126);} .menu, .menu-button {background: rgb(12,128,126) !important;;}    .random-colored {color: rgb(255, 110, 225);}", //riso birthday
+      "html.blue {background: rgb(12,128,126);} .menu, .menu-button {background: rgb(12,128,126) !important;;}    .random-colored {color: rgb(248,231,28);}", //riso 2
+      "html.blue {background: #7FFF00;}         .menu, .menu-button {background: #7FFF00 !important;;}            .random-colored {color: #8A2BE2;}", //ufogreen protonpurple
+      "html.blue {background: #E419FF;}         .menu, .menu-button {background: #E419FF !important;;}            .random-colored {color: #7FFF00;}", //ufogreen adobe
     ]
 
     var couple = couples[Math.floor(Math.random() * couples.length)];
