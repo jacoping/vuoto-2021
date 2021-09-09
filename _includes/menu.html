@@ -32,6 +32,7 @@
     z-index: 21;
     margin-bottom: 100px;
     font-weight: 500;
+    transition: transform .4s ease-in-out;
   }
 
   .menu a {
@@ -48,11 +49,11 @@
   }
 
   .hidden {
-    display: none;
+    transform: translateX(110%);
   }
 
   .rotate {
-    transform: rotate(45deg);
+    transform: rotate(-140deg);
   }
 
 
@@ -94,6 +95,7 @@
   document.querySelectorAll(".menu-link").forEach(item => {
     item.addEventListener("click", function() {
       document.querySelector(".menu").classList.toggle("hidden");
+      document.querySelector(".menu-button").classList.toggle("rotate");
     })
   })
 
