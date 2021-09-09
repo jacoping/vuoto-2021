@@ -5,7 +5,7 @@
   {% include meta-and-title.html %}
 
   <!-- this is necessary for random colors script -->
-  <style media="screen">
+  <style media="screen" class="randomstyles">
   </style>
 
   <link rel="stylesheet" href="https://use.typekit.net/skj1zoz.css">
@@ -21,12 +21,11 @@
 </head>
 
 <body>
-  
-  {% include menu.html %}
+
 
   {{ content }}
 
-
+  {% include menu.html %}
 
 </body>
 

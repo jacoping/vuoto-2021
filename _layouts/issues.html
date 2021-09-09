@@ -10,27 +10,14 @@
 
     <script src="/res/js/ScrollMagic.js"></script>
 
-    <style media="screen">
-
-      body {
-        background-color: black;
-      }
-
-      {% assign color = "rgba(255,255,255,.8)" %}
-
-      .glitch {
-        color: {{color}};
-        text-shadow: 0.05em 0.05em {{color}}, -.02em 0.03em {{color}};
-      }
-
-
+    <style media="screen" class="randomstyles">
 
     </style>
 
   </head>
 
 
-  <body>
+  <body style="background-color: black;">
 
       {% include bookazine-header.html %}
 
@@ -85,6 +72,33 @@
 
       {% include menu.html %}
       {% include scripts-after.html %}
+
+
+
+
+
+      <script type="text/javascript">
+
+      let style = document.querySelector('.randomstyles');
+
+      let couples = [
+        "html.blue {background: #8d08f7;}         .menu, .menu-button {background: #8d08f7 !important;}             .random-colored {color: #50e95d !important ;}", //juan
+        "html.blue {background: rgb(12,128,126);} .menu, .menu-button {background: rgb(12,128,126) !important;;}    .random-colored {color: rgb(255, 110, 225) !important ;}", //riso birthday
+        "html.blue {background: rgb(12,128,126);} .menu, .menu-button {background: rgb(12,128,126) !important;;}    .random-colored {color: rgb(248,231,28) !important ;}", //riso 2
+        "html.blue {background: #7FFF00;}         .menu, .menu-button {background: #7FFF00 !important;;}            .random-colored {color: #8A2BE2 !important ;}", //ufogreen protonpurple
+        "html.blue {background: #E419FF;}         .menu, .menu-button {background: #E419FF !important;;}            .random-colored {color: #7FFF00 !important ;}", //ufogreen adobe
+      ]
+
+      var couple = couples[Math.floor(Math.random() * couples.length)];
+      console.log(couple);
+
+      let changecolors = function() {
+        style.innerHTML = couple;
+      }
+
+      changecolors();
+    </script>
+
 
 
   </body>

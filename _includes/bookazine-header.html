@@ -1,15 +1,16 @@
+{% assign color = "rgba(255,255,255,.45)" %}
+
 <style>
   .issues-logo-container {
-    font-size: min(15vw, 180px); 
-    margin-top: 1em;
+    font-size: min(15vw, 180px);
+    margin-top: 1.5em;
     font-weight: 500;
     letter-spacing: .1em;
     z-index: 9;
   }
 
   .issues-logo-container p {
-    color: white;
-    opacity: 0.15;
+    color: {{color}};
     line-height: .04;
     padding: 0;
     margin: 0;
@@ -31,10 +32,15 @@
     }
 
   }
+
+  .last {
+    text-shadow: 0 -.05em {{color}}, 0 -.1em {{color}}, 0 -.15em {{color}}, 0 -.20em {{color}}, 0 -.25em {{color}}, 0 -.30em {{color}}, 0 -.35em {{color}} ;
+  }
 </style>
 
 <div class="header">
   <div class="issues-logo-container text-center">
+    <!--
     <p>VUOTO</p>
     <p>VUOTO</p>
     <p>VUOTO</p>
@@ -52,6 +58,7 @@
     <p>VUOTO</p>
     <p>VUOTO</p>
     <p>VUOTO</p>
+    -->
     <p class="last">VUOTO</p>
   </div>
 
