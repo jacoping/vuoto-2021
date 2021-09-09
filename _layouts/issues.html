@@ -36,7 +36,7 @@
 
       <div class="container">
 
-        <div class="px-5">
+        <div class="px-5" style="max-width: 800px; margin: auto;">
           <div class="pt-3">
             <img class="img-fluid" src="{{page.cover}}" alt="cover">
           </div>
@@ -58,19 +58,13 @@
           %}
         </div>
 
-        <div content="more info" class="mt-4 j-fs-120em j-fw-200 text-white j-lh-08">
+        <div content="more info" class="px-2 mt-4 j-fs-120em j-fw-200 text-white j-lh-08">
           <p class="m-0 mb-2" > VUOTO {{ page.number }} / {{ page.title }} </p>
           <p class="m-0 mb-2" > {{ page.date }} </p>
           <p class="m-0 mb-2" > ISBN {{ page.isbn }} </p>
           <p class="m-0 mb-2" > {{ page.size }} </p>
           <p class="m-0 mb-2" > {{ page.price }} </p>
-        </div>
-
-        <div class="" style="height: 7em;">
-        </div>
-
-        <div class="mt-5 h2">
-          <a class="text-white text-decoration-none" href="#">COMPRA UNA COPIA >>></a>
+          <p class="mt-5"><a class="text-white text-decoration-none j-fs-150em" href="/network">COMPRA UNA COPIA &#8594;</a></p>
         </div>
 
         {% if page.more %}
