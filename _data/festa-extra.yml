@@ -35,7 +35,7 @@
 - title: "DISCO RUIN: 40 ANNI DI CLUB CULTURE MADE IN ITALY"
   link: "https://www.youtube.com/watch?v=jU_5T_Zvaqo&t=1s"
   type: image
-  image: discoo-ruin.png
+  image: disco-ruin.png
 
 - title: "il tumblr di TROPICANTESIMO"
   link: "https://tropicantesimofuturo.tumblr.com/"
@@ -93,6 +93,8 @@
 
 - title: "festa delle luminarie di SCORRANO"
   link: "https://www.youtube.com/watch?v=tHozsmaq63I"
+  type: youtube
+  youtube-id: tHozsmaq63I
 
 - title: "UNZIPPED PARTIES  di Ivan L. Munuera nel sito del padiglione russo alla biennale"
   link: "https://www.pavilionrus.com/en/voices/ivan-lopez-munuera"
