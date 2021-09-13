@@ -55,7 +55,7 @@ title: Home
       {% for page in issuespages %}
 
       <div class="px-5" style="width: 100%; max-width: 600px; height: auto;">
-        <img class="img-fluid" src="{{page.cover}}" alt="" >
+        <a href="{{page.title | downcase}}" alt="vuoto{{page.number}}"> <img class="img-fluid" src="{{page.cover}}" alt="" > </a>
         <div class="my-3 lh-1 d-flex justify-content-between align-items-end" style="font-size: min(4.5vw, 30px)">
           <div class="">
             <div class="pt-1 j-fs-070em">
@@ -69,12 +69,12 @@ title: Home
             </div>
           </div>
           <div class="text-end mt-4">
-            <p class="mb-1"><a class="j-fw-700 random-colored text-decoration-none" href="/festa">+ info &#8594;</a></p>
+            <p class="mb-2"><a class="j-fw-700 random-colored text-decoration-none" href="{{page.title | downcase}}">+ info &#8594;</a></p>
             {% if page.soldout == false %}
             <p><a class="j-fw-700 random-colored text-decoration-none" href="/network">acquista &#8594;</a></p>
             {% else %}
             <p class="j-fw-700 random-colored text-decoration-none">acquista &#8594;</p>
-            <p class="j-fs-070em j-fw-700 bg-light text-dark px-1" style="position: absolute; transform: rotate(-20deg) translateX(1em) translateY(-0.5em)"><small>SOLD OUT</small></p>
+            <p class="j-fs-060em j-fw-700 bg-light text-dark px-1" style="position: absolute; transform: rotate(-15deg) translateX(1em) translateY(-0.6em)"><small>SOLD OUT</small></p>
             {% endif %}
           </div>
         </div>
