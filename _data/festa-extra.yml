@@ -43,7 +43,8 @@
 
 - title: "il mixcloud di TROPICANTESIMO"
   link: "https://www.mixcloud.com/tropicantesimo/stream/"
-  type: link
+  type: image
+  image: tropicantesimo-mixcloud.png
 
 - title: "RENATO NICOLINI, dcoumentario sull'Estate Romana"
   link: "https://www.youtube.com/watch?v=IDpfzHGaaFs"
@@ -136,7 +137,8 @@
 
 - title: "Cinema Nova - Bruxelles - Rassegna: CARNAVAL TOTAAL"
   link: "https://www.nova-cinema.org/prog/2020/176-carnaval-totaal/carnaval-totaal/?lang=fr"
-  type: link
+  type: image
+  image: carnaval-totaal.png
 
 - title: "libro night fever"
   link: ""
