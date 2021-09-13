@@ -1,113 +1,162 @@
 - title: "Intervista a Daphne Bogheri su VICE"
   link: "https://i-d.vice.com/it/article/nem3b7/tomboys-dont-cry-collettivo-italiano-queer"
+  type: link
 
 - title: "Video di Sara Leghissa su VIMEO"
   link: "https://vimeo.com/505683556"
+  type: vimeo
+  vimeo-id: 505683556
 
 - title: "Video di Sara Leghissa su VIMEO"
   link: "https://vimeo.com/517484699"
+  type: vimeo
+  vimeo-id: 517484699
 
 - title: "Video di Sara Leghissa su VIMEO"
   link: "https://vimeo.com/193795169"
+  type: vimeo
+  vimeo-id: 193795169
 
 - title: "Video di Sara Leghissa su VIMEO"
   link: "https://vimeo.com/327084650"
+  type: vimeo
+  vimeo-id: 327084650
 
 - title: "Vanni Santoni racconta la Free Tekno - MURO DI CASSE"
   link: "https://www.youtube.com/watch?v=bPG7Ty2BOk4"
+  type: youtube
+  youtube-id: bPG7Ty2BOk4
 
 - title: "Valerio Mattioli sulla fine della cultura club"
   link: "https://not.neroeditions.com/rip-club-culture-finalmente/"
+  type: image
+  image: berghain-lego.png
 
 - title: "DISCO RUIN: 40 ANNI DI CLUB CULTURE MADE IN ITALY"
-  link: "https://pressbeat.net/disco-ruin-40-anni-di-club-culture-made-in-italy/?fbclid=IwAR1SDv-yEoDYsK-S7BOdgBUgyqk67xTuP1WWtAqJdL0ll8ELhxBIq5wO7hU"
+  link: "https://pressbeat.net/disco-ruin-40-anni-di-club-culture-made-in-italy/"
+  type: link
 
 - title: "il tumblr di TROPICANTESIMO"
   link: "https://tropicantesimofuturo.tumblr.com/"
+  type: link
 
 - title: "il mixcloud di TROPICANTESIMO"
   link: "https://www.mixcloud.com/tropicantesimo/stream/"
+  type: link
 
 - title: "RENATO NICOLINI, dcoumentario sull'Estate Romana"
-  link: "https://www.youtube.com/watch?v=IDpfzHGaaFs&feature=youtu.be"
+  link: "https://www.youtube.com/watch?v=IDpfzHGaaFs"
 
 - title: "Haiti, il carnevale degli spettri su ARTE"
   link: "https://www.arte.tv/it/videos/073127-005-A/haiti-il-carnevale-degli-spettri/"
+  type: link
 
 - title: "OHT e il 'little fun palace'"
   link: "http://www.oht.art/it/little-fun-palace.html"
+  type: link
 
 - title: "free party, il libro di Francesco Macarone Palmieri a.k.a. WARBEAR"
   link: "https://archive.org/details/freeparty/mode/2up"
+  type: link
 
 - title: "Intervista a WARBEAR"
   link: "http://www.ziguline.com/ritmi-di-guerre-estatiche/#"
+  type: link
 
 - title: "Resoconto do PLASTIK9, il rave della capitale"
   link: "https://www.tmcrew.org/zk/pages/resoconti_dett.php?id_resoconti=4"
+  type: link
 
 - title: "link a GIANNI PETTENA. EFFIMERO URBANO E CITTÀ. LE FESTE DELLA PARIGI RIVOLUZIONARIA"
+  type: link
   link: "https://www.maremagnum.com/libri-antichi/gianni-pettena-effimero-urbano-e-citta-le-feste-della-parigi/158535372"
+  type: link
 
 - title: "festival crack, fumetti dirompenti"
   link: "https://crack.forteprenestino.net/"
+  type: link
 
 - title: "festival le guess who, realizzato sul edificio TivoliVredenburg su progetto originale di Herman Hertzberger e rifatto da NL Architects, aperto nel 2014"
   link: "https://www.leguesswho.nl/"
+  type: link
 
 - title: "racconto del progetto, con varie sale adatte ai diversi tipi di musica"
   link: "https://www.designboom.com/architecture/nl-architects-pandora-tivoli-vredenburg-utrecht-11-20-2014/"
+  type: link
 
 - title: "YAAM -  yougn african art market e club a Berlino"
   link: "https://www.yaam.de/"
+  type: link
 
 - title: "festa delle luminarie di SCORRANO"
   link: "https://www.youtube.com/watch?v=tHozsmaq63I"
 
 - title: "UNZIPPED PARTIES  di Ivan L. Munuera nel sito del padiglione russo alla biennale"
   link: "https://www.pavilionrus.com/en/voices/ivan-lopez-munuera"
+  type: link
 
 - title: "intervista ai fratelli PARISI - LUMINARIE"
   link: "https://www.youtube.com/watch?v=wtYaDzoIq3k"
+  type: youtube
+  youtube-id: wtYaDzoIq3k
 
 - title: "Sfilata DIOR a Lecce su progetto di Marinella Senatore"
   link: "https://www.youtube.com/watch?v=T5pBRKED0Bc"
+  type: youtube
+  youtube-id: T5pBRKED0Bc
 
 - title: "pink floyd live in vevnice 1989"
   link: "https://www.youtube.com/watch?v=MPwmbpS92tE"
+  type: youtube
+  youtube-id: MPwmbpS92tE
 
 - title: "Revista NEUTRA (clegio arquitectos de Sevilla) - Ciudad. Fiesta! - 2008"
   link: "https://www.plataformaarquitectura.cl/cl/02-10062/revista-neutra-16-ciudad-%25c2%25a1fiesta"
+  type: link
 
 - title: "CASSADRITTA, il fumetto delle rave romane - intervista al'autore Roberto grossi "
   link: "https://www.youtube.com/watch?v=w0ItT6bPvUk"
+  type: youtube
+  youtube-id: w0ItT6bPvUk
 
 - title: "GAZA FREESTYLE FESTIVAL, festival di skate nella striscia di Gaza"
   link: "http://www.italianskateboarding.org/skateboard/skateboarding-nella-striscia-di-gaza/"
+  type: link
 
 - title: "Documentario sulla Fiesta del Gran Poder de La Paz"
   link: "https://www.youtube.com/watch?v=vbssZ9hAjQE"
+  type: youtube
+  youtube-id: vbssZ9hAjQE
 
 - title: "Electro preste de El Alto"
   link: "https://www.youtube.com/watch?v=sWAPhIlnwM8"
+  type: youtube
+  youtube-id: sWAPhIlnwM8
 
 - title: "Cinema Nova - Bruxelles - Rassegna: CARNAVAL TOTAAL"
   link: "https://www.nova-cinema.org/prog/2020/176-carnaval-totaal/carnaval-totaal/?lang=fr"
+  type: link
 
 - title: "libro night fever"
   link: ""
+  type: link
 
 - title: "libro vanni santoni"
   link: ""
+  type: link
 
 - title: "film woodstock"
   link: ""
+  type: link
 
 - title: "Reclaim the streets - documentario (il movimento inizia con una festa)"
   link: "https://www.youtube.com/watch?v=bUL0C_T-Sqk"
+  type: link
 
 - title: "articolo di Parasite molto bello!"
   link: "https://archinect.com/features/article/150007079/cosmology-subcultures-and-urban-wilderness"
+  type: link
 
 - title: "Ten Cities: Clubbing in Nairobi, Cairo, Kyiv, Johannesburg, Berlin, Naples, Luanda, Lagos, Bristol, Lisbon, 1960-March 2020"
   link: "https://spectorbooks.com/ten-cities"
+  type: link

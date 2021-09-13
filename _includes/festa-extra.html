@@ -1,0 +1,36 @@
+<style>
+  iframe {
+    width: 100%;
+  }
+</style>
+
+
+
+<div class="mt-5 text-white" style="max-width: 1000px; margin: auto; overflow-x: hidden; font-size: min(7vw, 50px) ">
+
+  <div class="text-center j-fw-700 j-lh-08">
+    <p class="j-fs-200em">CONTENUTI<br>AGGIUNTIVI</p>
+    <p class="j-fw-300"> Cose che sono rimaste fuori o sono arrivate dopo... </p>
+  </div>
+
+  {% for item in site.data.festa-extra %}
+    <div class="my-4 p-1 pe-3" style="word-break: break-all;">
+      <div class="border border-2 border-dark p-2" style="box-shadow: .5em .5em #222">
+        {% if item.type == "vimeo"%}
+          <div class="ratio ratio-16x9">
+            <iframe src="https://player.vimeo.com/video/{{item.vimeo-id}}" width="640" height="352" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        {% elsif item.type == "youtube"%}
+          <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{item.youtube-id}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        {% elsif item.type == "image"%}
+          <a target="_blank" href="{{ item.link }}"><img class="img-fluid" src="/res/pics/festa-extra/{{ item.image }}" alt=""></a>
+        {% elsif item.type == "link"%}
+          <a class="j-lh-09 j-fw-600" style="color: #dde26e;" target="_blank" href="{{ item.link }}">{{ item.link }}</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
