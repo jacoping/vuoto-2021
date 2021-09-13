@@ -2,6 +2,8 @@
 layout: issues
 number: 1
 title: "VERTIGO"
+soldout: true
+
 title-size: 3
 date: "Luglio 2020"
 isbn: "9788894576900"

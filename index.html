@@ -69,8 +69,13 @@ title: Home
             </div>
           </div>
           <div class="text-end mt-4">
-            <p class="mb-1"><a class="links random-colored text-decoration-none" href="/festa">+ info &#8594;</a></p>
-            <p><a class="links random-colored text-decoration-none j-lh-08" href="/network">acquista &#8594;</a></p>
+            <p class="mb-1"><a class="j-fw-700 random-colored text-decoration-none" href="/festa">+ info &#8594;</a></p>
+            {% if page.soldout == false %}
+            <p><a class="j-fw-700 random-colored text-decoration-none" href="/network">acquista &#8594;</a></p>
+            {% else %}
+            <p class="j-fw-700 random-colored text-decoration-none">acquista &#8594;</p>
+            <p class="j-fs-070em j-fw-700 bg-light text-dark px-1" style="position: absolute; transform: rotate(-20deg) translateX(1em) translateY(-0.5em)"><small>SOLD OUT</small></p>
+            {% endif %}
           </div>
         </div>
       </div>

@@ -2,6 +2,8 @@
 layout: issues
 number: 3
 title: "FESTA"
+soldout: false
+
 title-size: 3
 date: "Settembre 2021"
 isbn: "9788894576924"

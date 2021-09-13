@@ -2,6 +2,8 @@
 layout: issues
 number: 2
 title: "CONTROVERSO"
+soldout: false
+
 title-size: 2.2
 date: "Dicembre 2020"
 isbn: "9788894576917"
