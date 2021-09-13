@@ -34,8 +34,8 @@
 
 - title: "DISCO RUIN: 40 ANNI DI CLUB CULTURE MADE IN ITALY"
   link: "https://www.youtube.com/watch?v=jU_5T_Zvaqo&t=1s"
-  type: youtube
-  youtube-id: kFx7y2Z0ZlKHM3x9
+  type: image
+  image: discoo-ruin.png
 
 - title: "il tumblr di TROPICANTESIMO"
   link: "https://tropicantesimofuturo.tumblr.com/"
@@ -48,6 +48,8 @@
 
 - title: "RENATO NICOLINI, dcoumentario sull'Estate Romana"
   link: "https://www.youtube.com/watch?v=IDpfzHGaaFs"
+  type: youtube
+  youtube-id: IDpfzHGaaFs
 
 - title: "Haiti, il carnevale degli spettri su ARTE"
   link: "https://www.arte.tv/it/videos/073127-005-A/haiti-il-carnevale-degli-spettri/"
@@ -63,7 +65,8 @@
 
 - title: "Intervista a WARBEAR"
   link: "http://www.ziguline.com/ritmi-di-guerre-estatiche/#"
-  type: link
+  type: image
+  image: chikitone.jpg
 
 - title: "Resoconto do PLASTIK9, il rave della capitale"
   link: "https://www.tmcrew.org/zk/pages/resoconti_dett.php?id_resoconti=4"
@@ -72,7 +75,8 @@
 - title: "link a GIANNI PETTENA. EFFIMERO URBANO E CITTÀ. LE FESTE DELLA PARIGI RIVOLUZIONARIA"
   type: link
   link: "https://www.maremagnum.com/libri-antichi/gianni-pettena-effimero-urbano-e-citta-le-feste-della-parigi/158535372"
-  type: link
+  type: image
+  image: pettena-effimero.jpg
 
 - title: "festival crack, fumetti dirompenti"
   link: "https://crack.forteprenestino.net/"
@@ -84,18 +88,16 @@
 
 - title: "racconto del progetto, con varie sale adatte ai diversi tipi di musica"
   link: "https://www.designboom.com/architecture/nl-architects-pandora-tivoli-vredenburg-utrecht-11-20-2014/"
-  type: link
-
-- title: "YAAM -  yougn african art market e club a Berlino"
-  link: "https://www.yaam.de/"
-  type: link
+  type: image
+  image: tivoli.png
 
 - title: "festa delle luminarie di SCORRANO"
   link: "https://www.youtube.com/watch?v=tHozsmaq63I"
 
 - title: "UNZIPPED PARTIES  di Ivan L. Munuera nel sito del padiglione russo alla biennale"
   link: "https://www.pavilionrus.com/en/voices/ivan-lopez-munuera"
-  type: link
+  type: image
+  image: padiglione-russia.png
 
 - title: "intervista ai fratelli PARISI - LUMINARIE"
   link: "https://www.youtube.com/watch?v=wtYaDzoIq3k"
@@ -107,7 +109,7 @@
   type: youtube
   youtube-id: T5pBRKED0Bc
 
-- title: "pink floyd live in vevnice 1989"
+- title: "pink floyd live in venice 1989"
   link: "https://www.youtube.com/watch?v=MPwmbpS92tE"
   type: youtube
   youtube-id: MPwmbpS92tE
@@ -139,26 +141,16 @@
   link: "https://www.nova-cinema.org/prog/2020/176-carnaval-totaal/carnaval-totaal/?lang=fr"
   type: image
   image: carnaval-totaal.png
-
-- title: "libro night fever"
-  link: ""
-  type: link
-
-- title: "libro vanni santoni"
-  link: ""
-  type: link
-
-- title: "film woodstock"
-  link: ""
-  type: link
-
+  
 - title: "Reclaim the streets - documentario (il movimento inizia con una festa)"
   link: "https://www.youtube.com/watch?v=bUL0C_T-Sqk"
-  type: link
+  type: image
+  image: reclaim-streets.png
 
 - title: "articolo di Parasite molto bello!"
   link: "https://archinect.com/features/article/150007079/cosmology-subcultures-and-urban-wilderness"
-  type: link
+  type: image
+  image: cosmology.jpg
 
 - title: "Ten Cities: Clubbing in Nairobi, Cairo, Kyiv, Johannesburg, Berlin, Naples, Luanda, Lagos, Bristol, Lisbon, 1960-March 2020"
   link: "https://spectorbooks.com/ten-cities"
