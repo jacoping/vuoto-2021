@@ -63,3 +63,8 @@
       - nome: b-r-u-n-o
         indirizzo: 'C. Lunga S. Barnaba, 2729'
         web: 'https://www.b-r-u-n-o.it/'
+  - luogo: CAGLIARI
+    librerie:
+      - nome: villanova studio
+        indirizzo: Via San Giacomo 19
+        web: 'https://www.facebook.com/villanovastudioca/'
