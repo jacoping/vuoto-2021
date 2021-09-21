@@ -1,0 +1,35 @@
+- nome: leporello
+  books:
+  - title: VUOTO 3 / FESTA
+    link: https://leporello-books.com/prodotto/vuoto-3-festa/
+    soldout: false
+  - title: VUOTO 2 / CONTROVERSO
+    link: https://leporello-books.com/prodotto/vuoto-2-controverso/
+    soldout: false
+  - title: VUOTO 1 / VERTIGO
+    link: https://leporello-books.com/prodotto/vuoto-1-vertigo/
+    soldout: true
+
+- nome: spazio b**k
+  books:
+  - title: VUOTO 3 / FESTA
+    link: https://www.spaziobk.com/prodotto/libri/vuoto-3-festa/
+    soldout: false
+  - title: VUOTO 2 / CONTROVERSO
+    link: https://www.spaziobk.com/prodotto/libri/vuoto-2-controverso/
+    soldout: true
+  - title: VUOTO 1 / VERTIGO
+    link: https://www.spaziobk.com/prodotto/libri/vuoto-1-vertigo/
+    soldout: true
+
+- nome: edicola 518
+  books:
+  - title: VUOTO 3 / FESTA
+    link: https://www.emergenzeweb.it/prodotto/vuoto-%E2%84%963-festa/
+    soldout: false
+  - title: VUOTO 2 / CONTROVERSO
+    link: https://www.emergenzeweb.it/prodotto/vuoto-%E2%84%96-2/
+    soldout: true
+  - title: VUOTO 1 / VERTIGO
+    link: https://www.emergenzeweb.it/
+    soldout: true
