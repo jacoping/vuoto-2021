@@ -11,7 +11,7 @@ size: "13.8x19.4cm, 112 pagine"
 price: "15€"
 folder-high: "/res/pics/bookazine/vuoto3high/"
 folder-low: "/res/pics/bookazine/vuoto3low/"
-cover: "res/pics/vuoto3-cover.jpg"
+cover: "res/pics/cover_vuoto3_800px.jpg"
 brief: "Festa, celebrazione collettiva, ritualità. Spontanea o formale, la Festa è momento di libertà, di rottura, di esagerazione. Un momento di sospensione delle modalità ‘normali’ di uso dello spazio. Con questa pubblicazione abbiamo voluto esplorare alcune sue dimensioni.
 A noi tamburi, maschere e scenografie. A Lei, la Festa, il nuovo Vuoto."
 extra: festa-extra.html
