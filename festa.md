@@ -12,7 +12,8 @@ price: "15€"
 folder-high: "/res/pics/bookazine/vuoto3high/"
 folder-low: "/res/pics/bookazine/vuoto3low/"
 cover: "res/pics/cover_vuoto3_800px.jpg"
-brief: "Festa, celebrazione collettiva, ritualità. Spontanea o formale, la Festa è momento di libertà, di rottura, di esagerazione. Un momento di sospensione delle modalità ‘normali’ di uso dello spazio. Con questa pubblicazione abbiamo voluto esplorare alcune sue dimensioni.
-Scopri Vuoto 3 - Festa."
+brief: "Festa, celebrazione collettiva, ritualità. Spontanea o formale, la Festa è momento di libertà, di rottura, di esagerazione. Un momento di sospensione delle modalità ‘normali’ di uso dello spazio.
+Con questa pubblicazione abbiamo esplorato alcune sue dimensioni e stabilito connessioni fra le diverse pratiche artistiche che incorporano la Festa nelle proprie azioni.
+A noi tamburi, maschere e scenografie. A Lei, la Festa, il nuovo Vuoto."
 extra: festa-extra.html
 ---
