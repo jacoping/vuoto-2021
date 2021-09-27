@@ -3,6 +3,11 @@
       - nome: corraini mambo
         indirizzo: Via Don Minzoni 14
         web: 'https://www.corraini.com/it/librerie/corraini-mambo-artbookshop.html'
+   - luogo: CAGLIARI
+    librerie:
+      - nome: villanova studio
+        indirizzo: Via San Giacomo 19
+        web: 'https://www.facebook.com/villanovastudioca/'
   - luogo: CATANIA
     librerie:
       - nome: vicolo stretto
@@ -16,6 +21,11 @@
       - nome: todo modo
         indirizzo: Via dei Fossi 15 rosso
         web: 'https://todomodo.org/'
+  - luogo: GENOVA
+    librerie:
+      - nome: paccottiglia
+        indirizzo: Via di Canneto Il Lungo, 67R
+        web: 'https://www.paccottiglia.net/'
   - luogo: MANTOVA
     librerie:
       - nome: galleria corraini
@@ -63,8 +73,3 @@
       - nome: b-r-u-n-o
         indirizzo: 'C. Lunga S. Barnaba, 2729'
         web: 'https://www.b-r-u-n-o.it/'
-  - luogo: CAGLIARI
-    librerie:
-      - nome: villanova studio
-        indirizzo: Via San Giacomo 19
-        web: 'https://www.facebook.com/villanovastudioca/'
