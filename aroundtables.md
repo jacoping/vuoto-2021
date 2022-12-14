@@ -11,6 +11,8 @@ size: "13.8x19.4cm, 3 volumi, 112 pagine"
 price: "15€"
 folder-high: "/res/pics/bookazine/vuoto4high/"
 folder-low: "/res/pics/bookazine/vuoto4low/"
-cover: "res/pics/cover_vuoto4_800px.png"
-brief: "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Etiam habebis sem dicantur magna mollis euismod. Plura mihi bona sunt, inclinet, amari petere vellent. Non equidem invideo, miror magis posuere velit aliquet."
+cover: "res/pics/cover_vuoto4_800px.jpg"
+brief: "Il tavolo rappresenta il dispositivo e il territorio su cui avviene l'incontro e il confronto collettivo, lo spazio in cui si condividono e si raccolgono le esperienze, ma anche lo spazio in cui si affrontano e si risolvono (o meno) i conflitti e le contraddizioni.
+<br>
+VUOTO 4 // AROUND TABLES è il risultato di una open call lanciata in occasione della 17a Biennale di Architettura di Venezia, per raccogliere idee, spunti, immagini e progetti che esplorassero il tavolo nelle sue molteplici dimensioni."
 ---
