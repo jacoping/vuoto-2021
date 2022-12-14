@@ -1,17 +1,29 @@
 - nome: leporello
   books:
+  - title: VUOTO 5 / PIAZZE
+    link: https://vuoto.xyz
+    soldout: false
+  - title: VUOTO 4 / ARUOND TABLES
+    link: https://vuoto.xyz
+    soldout: false
   - title: VUOTO 3 / FESTA
     link: https://leporello-books.com/prodotto/vuoto-3-festa/
     soldout: false
   - title: VUOTO 2 / CONTROVERSO
     link: https://leporello-books.com/prodotto/vuoto-2-controverso/
-    soldout: false
+    soldout: true
   - title: VUOTO 1 / VERTIGO
     link: https://leporello-books.com/prodotto/vuoto-1-vertigo/
     soldout: true
 
 - nome: spazio b**k
   books:
+  - title: VUOTO 5 / PIAZZE
+    link: https://www.spaziobk.com/prodotto/libri/vuoto-5-piazze-edizione-speciale/
+    soldout: false
+  - title: VUOTO 4 / ARUOND TABLES
+    link: https://vuoto.xyz
+    soldout: false
   - title: VUOTO 3 / FESTA
     link: https://www.spaziobk.com/prodotto/libri/vuoto-3-festa/
     soldout: false
@@ -24,6 +36,12 @@
 
 - nome: edicola 518
   books:
+  - title: VUOTO 5 / PIAZZE
+    link: https://vuoto.xyz
+    soldout: false
+  - title: VUOTO 4 / ARUOND TABLES
+    link: https://vuoto.xyz
+    soldout: false
   - title: VUOTO 3 / FESTA
     link: https://www.emergenzeweb.it/prodotto/vuoto-%E2%84%963-festa/
     soldout: false
