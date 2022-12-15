@@ -8,7 +8,7 @@
     soldout: false
   - title: VUOTO 3 / FESTA
     link: https://leporello-books.com/prodotto/vuoto-3-festa/
-    soldout: false
+    soldout: true
   - title: VUOTO 2 / CONTROVERSO
     link: https://leporello-books.com/prodotto/vuoto-2-controverso/
     soldout: true

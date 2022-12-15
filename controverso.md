@@ -2,7 +2,7 @@
 layout: issues
 number: 2
 title: "CONTROVERSO"
-soldout: false
+soldout: true
 
 title-size: 2.2
 date: "Dicembre 2020"

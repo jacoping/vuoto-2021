@@ -37,7 +37,11 @@
             {{ page.brief }}
           </div>
           {% if page.soldout == false %}
-          <p class="mt-2"><a class="text-white text-decoration-none j-fs-200em random-colored j-fw-700" href="/network">acquista una copia &#8594;</a></p>
+          <p class="mt-2 mb-0"><a class="text-white text-decoration-none j-fs-200em random-colored j-fw-700" href="/network">acquista una copia &#8594;</a></p>
+          {% endif %}
+
+          {% if page.extra-link %}
+          <p class=""><a class="text-white text-decoration-none j-fs-200em random-colored j-fw-700" href="{{page.extra-link-target}}"> {{ page.extra-link }} &#8594;</a></p>
           {% endif %}
         </div>
 

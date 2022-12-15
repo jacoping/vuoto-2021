@@ -20,5 +20,8 @@ della comunità originaria, unita e fraterna, le fantasie sullo spazio
 comune del mediterraneo antico — il foro, l’agorà — la celebrazione del glorioso
 medioevo italico, la magnificazione delle feste e delle processioni cattoliche…
 <br>
-VUOTO 5 // PIAZZE è il catalogo di una mostra tenuta a Firenze nell'estate 2022, con la quale ci siamo dati l'obiettivo di dare conto del punto di vista soggettivo di Orizzontale su un tema a noi molto caro. 40 piazze, progettate e realizzate nel XXI secolo, selezionate senza pretesa né di dare conto del variegato panorama relativo alla progettazione di spazi aperti urbani contemporanei, né di concentrare l’attenzione su un particolare tipo di approccio. Tutti gli esempi scelti, per una serie svariata e disomogenea di ragioni, hanno un significato speciale per i curatori."
+VUOTO 5 // PIAZZE. FENOMENOLOGIE DELL'INATTESO è il catalogo della mostra tenuta a Firenze nell'estate 2022, con la quale ci siamo dati l'obiettivo di dare conto del punto di vista soggettivo di Orizzontale su un tema a noi molto caro. 40 piazze, progettate e realizzate nel XXI secolo, selezionate senza pretesa né di dare conto del variegato panorama relativo alla progettazione di spazi aperti urbani contemporanei, né di concentrare l’attenzione su un particolare tipo di approccio. Tutti gli esempi scelti, per una serie svariata e disomogenea di ragioni, hanno un significato speciale per i curatori."
+
+extra-link: "più info sulla mostra"
+extra-link-target: "/mostra-piazze"
 ---
