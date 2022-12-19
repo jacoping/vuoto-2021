@@ -21,6 +21,11 @@
       - nome: todo modo
         indirizzo: Via dei Fossi 15 rosso
         web: 'https://todomodo.org/'
+  - luogo: FORLÌ
+    librerie:
+      - nome: "frab's magazines & more"
+        indirizzo: Via dei Filergiti 1
+        web: 'https://www.frabsmagazines.com/'
   - luogo: GENOVA
     librerie:
       - nome: paccottiglia
@@ -31,7 +36,7 @@
       - nome: galleria corraini
         indirizzo: Via Ippolito Nievo 7a
         web: 'https://corraini.com/it/librerie/galleria-corraini.html'
-  - luogo: Milano
+  - luogo: MILANO
     librerie:
       - nome: spazio b**k
         indirizzo: Via Porro Lambertenghi 20
