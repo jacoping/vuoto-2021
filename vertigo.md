@@ -2,6 +2,7 @@
 layout: issues
 number: 1
 title: "VERTIGO"
+slug: vertigo
 soldout: true
 
 title-size: 3

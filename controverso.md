@@ -2,6 +2,7 @@
 layout: issues
 number: 2
 title: "CONTROVERSO"
+slug: controverso
 soldout: true
 
 title-size: 2.2

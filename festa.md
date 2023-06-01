@@ -2,6 +2,7 @@
 layout: issues
 number: 3
 title: "FESTA"
+slug: festa
 soldout: false
 
 title-size: 3

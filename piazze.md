@@ -2,6 +2,7 @@
 layout: issues
 number: 5
 title: "PIAZZE"
+slug: piazze
 soldout: false
 
 title-size: 3

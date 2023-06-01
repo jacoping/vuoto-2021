@@ -2,6 +2,7 @@
 layout: issues
 number: 4
 title: "AROUND TABLES"
+slug: aroundtables
 soldout: false
 
 title-size: 3
